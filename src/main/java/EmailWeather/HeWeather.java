@@ -5,7 +5,7 @@ import java.net.URL;
 
 public class HeWeather {
     public String GetWeather(String city){
-        String api_key="f143b5f913df4dc7a6b174d752424d74";
+        String api_key="f**************";
         //String param = "key=xxxxxxxxxxxxxxxxxxx&location="+city;
 
         String param=String.format("key=%s&location=%s",api_key,city);

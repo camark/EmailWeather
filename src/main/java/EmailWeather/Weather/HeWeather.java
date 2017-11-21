@@ -1,11 +1,11 @@
-package EmailWeather;
+package EmailWeather.Weather;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HeWeather {
     public String GetWeather(String city){
-        String api_key="f**************";
+        String api_key="f143bXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         //String param = "key=xxxxxxxxxxxxxxxxxxx&location="+city;
 
         String param=String.format("key=%s&location=%s",api_key,city);

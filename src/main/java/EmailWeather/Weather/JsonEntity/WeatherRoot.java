@@ -1,4 +1,4 @@
-package EmailWeather.JsonEntity;
+package EmailWeather.Weather.JsonEntity;
 
 import java.util.List;
 

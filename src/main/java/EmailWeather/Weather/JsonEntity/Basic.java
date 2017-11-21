@@ -1,4 +1,4 @@
-package EmailWeather.JsonEntity;
+package EmailWeather.Weather.JsonEntity;
 
 public class Basic {
     private String cid;

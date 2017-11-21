@@ -1,4 +1,4 @@
-package EmailWeather.JsonEntity;
+package EmailWeather.Weather.JsonEntity;
 
 public class Daily_forecast {
     private String cond_code_d;

@@ -10,13 +10,13 @@ public class EmailUtil {
 
         email.setHostName("smtp.sina.cn");
         email.setSmtpPort(465);
-        String email_user_name = "cxxxxxxxxxxxxx@sina.cn";
-        String email_user_pass = "fxxxxxxxxxxxxxxxxxxx";
+        String email_user_name = "cxxxxxxxxxxxxxx@sina.cn";
+        String email_user_pass = "fxxxxxxxxxxxxxxxxx";
         email.setAuthenticator(new DefaultAuthenticator(email_user_name,email_user_pass));
         email.setSSLOnConnect(true);
 
         email.addTo("gongming@ebara.cn", "Gongming");
-        email.setFrom(email_user_name, "camark");
+        email.setFrom(email_user_name, "cxxxxxxxxxxxxxxxxxxxxxxx");
         email.setSubject(subject);
 
 

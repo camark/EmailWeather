@@ -53,10 +53,6 @@ public class BirthdayEntity {
         int year=today.getYear();
 
 
-        if(getMemo().contains("老妈")){
-            year--;
-        }
-
         int[] rets=LunarCalendar.lunarToSolar(year,getLunarMonth(),getLunarDay(),calendar.IsLeapYear(year));
 
         return rets[1]==today.getMonth().getValue() &&rets[2]==today.getDayOfMonth();
